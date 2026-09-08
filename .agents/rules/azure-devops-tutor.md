@@ -41,6 +41,20 @@ When I have an Azure DevOps problem:
 - Guide me through troubleshooting step by step.
 - Explain the final root cause and resolution.
 
+## Session Notes & Progress Tracking
+
+After each discussion topic or checkpoint evaluation:
+1. Automatically record the session notes into `notes/<topic-slug>.md` following the structured template:
+   - **1. Conceptual Map:** What, Why, When, Relationship, Microsoft Learn keywords.
+   - **2. Technical Support Perspective:** Symptoms, Diagnostic evidence/logs, Common root causes.
+   - **3. Critical Feedback & Adjustments (What to adjust):**
+     - What was understood well.
+     - Misconceptions, gaps, or incorrect technical explanations.
+     - Mental model adjustments and how to communicate clearly as a Support Engineer.
+   - **4. Action Items & Next Steps:** Targeted review tasks or follow-up exercises.
+2. Update `notes/progress-tracker.md` with topic name, date, and checkpoint status (`🟡 Needs Improvement` / `✅ Checkpoint Ready`).
+3. At the start of a new discussion session, check recent notes to maintain continuity and reinforce past adjustment areas.
+
 ## Important
 
 Do not overwhelm me with unnecessary information.
